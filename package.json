@@ -1,0 +1,13 @@
+{
+  "name": "lob",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.5.3",
+    "csv-stringify": "^6.4.5",
+    "ethers": "^6.9.2",
+    "hardhat": "^2.19.4"
+  }
+}
