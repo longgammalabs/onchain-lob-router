@@ -22,8 +22,9 @@ contract Router is IRouter, ReentrancyGuard {
 
   uint8 constant UNWRAP_AND_WRAP_ID = 0;
   uint8 constant ONCHAINCLOB_ID = 1;
-  uint8 constant V2_ROUTER_ID = 2;
-  uint8 constant V3_ROUTER_ID = 3;
+  uint8 constant V2_ROUTER_ID = 3;
+  uint8 constant V3_ROUTER_ID = 4;
+  uint8 constant LEGACY_V3_ROUTER_ID = 5;
 
   struct SwapParams {
     uint256 amountIn;
